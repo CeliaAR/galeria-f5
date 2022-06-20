@@ -1,3 +1,15 @@
+Hola , te cuento un poco como lo he montado. 
+Esta basado en Codeignaiter.
+Me he creado en phpMyAdmin una base de datos 
+He  creado un metodo init para borrar dinamicamente la base de datos cada vez que entres , la copntraseña es admin
+De despliegue no puedo contarte mucho la verdad que yo en el grado no lo tocamos mucho y en la empresa menos. 
+te descargas del git el proyecto y lo guardas en xammp/htdocs
+Al abrir el proyecto en local localhost/galeria/celia/papCI-master/init y te pedira borrar la base de datos
+No esta muy lograda pero no he tenido tiempo 
+Cualquier cosa mi correo celia.a.c@hotmail.com
+
+Un saludo
+
 ###################
 What is CodeIgniter
 ###################
