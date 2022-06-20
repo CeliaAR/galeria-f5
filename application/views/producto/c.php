@@ -10,10 +10,6 @@
 		<input type="text" name="nombre" required id="nombreId" onkeyup="revisarProducto()" />
 		<div id="warning" style="display:none;"></div><br>
 
-
-
-
-
 		<!-- JAVASCRIPT PARA VISUALIZAR LA FOTO -->
 		<script>
 			//JS PARA VISUALIZACIÓN DE LA IMAGEN

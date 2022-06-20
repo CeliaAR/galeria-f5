@@ -13,19 +13,6 @@
 		<input id="idp" type="text" name="nombre" value="<?= $producto->nombre ?>" onkeyup="revisarProducto()" />
 		<div id="warning" style="display:none;"></div><br>
 		<input type="hidden" id="nombreActualId" name="nombreActual" value="<?= $producto->nombre ?>" />
-
-
-
-		<label for="idp">Categoria</label>
-		<select id="id-categoria" name="categoria">
-			<option selected="selected" value="<?= $producto->categoria->id ?>"><?= $producto->categoria->nombre ?></option>
-			<?php foreach ($categorias as $categoria) : ?>
-				<?php if ($categoria->nombre != $producto->categoria->nombre) : ?>
-					<option value="<?= $categoria->id ?>"><?= $categoria->nombre ?></option>
-				<?php endif; ?>
-			<?php endforeach; ?>
-		</select>
-
 		<input type="hidden" name="id" value="<?= $producto->id ?>" />
 		<input type="submit" />
 	</form>
