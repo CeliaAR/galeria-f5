@@ -7,7 +7,7 @@
 	<table class="table table-striped">
 		<tr>
 			<th>Foto</th>
-			<th>Nomgggggggggggggggggbre</th>
+			<th>Nombre</th>
 			<th>Acción</th>
 		</tr>
 		<?php foreach ($productos as $producto) : ?>
