@@ -7,7 +7,7 @@
 
 	<table class="table">
 		<tr>
-			<th>Nombre</th>
+			<th>Nombrrrrrrrrrrrrrrrre</th>
 			<th>Cantidad</th>
 			<th>Acciones</th>
 		</tr>
